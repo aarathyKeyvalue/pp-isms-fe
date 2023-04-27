@@ -35,6 +35,11 @@ module.exports = {
     libraryTarget: 'umd',
     clean: true
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
   optimization: {
     minimize: true,
     minimizer: [

@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "webpack watch && tsc",
-    "serve": "webpack serve --mode development",
+    "serve": "webpack serve && tsc --mode development",
     "build": "webpack && tsc --mode production",
     "test": "jest"
   },
